@@ -25,7 +25,11 @@ const Country = props => {
       <tr onClick={() => props.onClick(props)}>
         {Object.entries(country).map((key, index) => {
           if (fields.includes(key[0])) {
-            return <td key={index}>{key[1]}</td>;
+            return (
+              <td className="col" key={index}>
+                {key[1]}
+              </td>
+            );
           }
           return;
         })}
