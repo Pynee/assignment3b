@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment 3b
+
+Show a table of countries and lets user to select their own list of countries.
+
 
 ## Available Scripts
 
